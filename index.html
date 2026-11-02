@@ -88,7 +88,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
     <div class="kicker">SmartGauge · OBD2 gauge for CYD</div>
     <h1>ติดตั้ง <span>SmartGauge</span> ผ่านเบราว์เซอร์</h1>
     <p class="muted">เกจวัดรถยนต์บนจอ CYD (ESP32-2432S028R จอเหลือง 2.8") อ่านค่าจากช่อง OBD2 ของรถผ่าน <b>ELM327 Bluetooth</b> ติดตั้งครั้งแรกหรืออัปเดต ไม่ต้องลงโปรแกรม ใช้ได้ทั้ง<b>คอมพิวเตอร์</b> (Chrome หรือ Edge) และ<b>มือถือ Android</b> (Chrome กับสาย OTG)</p>
-    <div class="tags"><span>เวอร์ชัน <b id="ver">…</b></span><span class="beta">รุ่นทดสอบ</span><span>ฟรี</span><span>7 หน้าเกจ</span><span>โค้ดเสียภาษาไทย</span><span>ทุกรุ่นจอ CYD</span></div>
+    <div class="tags"><span>เวอร์ชัน <b id="ver">…</b></span><span class="beta">รุ่นทดสอบ</span><span>ฟรี</span><span>6 หน้าเกจ</span><span>ทุกรุ่นจอ CYD</span></div>
   </header>
 
   <div class="box warn"><b>รุ่นทดสอบ (beta):</b> ทดสอบกับ Honda Civic FC 2017 1.8 แล้วเท่านั้น รถคันอื่นช่วยลองแล้วแจ้งผลทาง LINE ด้านล่าง · <b>ห้ามดูหรือแตะจอระหว่างขับ</b> ตั้งค่าตอนจอด · ใช้งานด้วยความเสี่ยงของคุณเอง</div>
@@ -145,7 +145,7 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
       <li>หาไม่เจอ: แตะ ≡ มุมซ้ายบน › จับคู่ OBD › แตะชื่อ (หรือเลข) ของ ELM327</li>
       <li>แตะครึ่งขวา/ซ้ายของจอ = เปลี่ยนหน้า · ถูนิ้วขึ้น/ลง = ความสว่าง · กดค้าง 2 วินาที = โหมดจำลอง (ลองดูได้โดยไม่ต้องต่อรถ)</li>
       <li>ติดบอร์ดกลับหัว: ≡ › กลับจอ › กลับหัว</li>
-      <li>รถคันอื่นที่ไม่ใช่ Civic: ≡ › ตั้งค่า เลือกเบนซิน/ดีเซล เทอร์โบ รอบสูงสุด · ราคาน้ำมันและการเตือนอยู่ที่ ≡ › หน้า 2</li>
+      <li>รถคันอื่นที่ไม่ใช่ Civic: ≡ › ตั้งค่า เลือกเบนซิน/ดีเซล เทอร์โบ รอบสูงสุด</li>
     </ol>
   </section>
 
@@ -156,18 +156,13 @@ footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
       <li><b>เครื่องยนต์:</b> สุญญากาศท่อไอดี (แถบยิ่งยาวยิ่งประหยัด) หรือสุญญากาศ + บูสต์สำหรับรถเทอร์โบ</li>
       <li><b>อุณหภูมิ:</b> น้ำ อากาศเข้า แคทาไลติก (ค่าที่รถไม่ส่งจะซ่อนเอง)</li>
       <li><b>น้ำมัน/ไฟ:</b> km/L ตอนนี้ + กราฟ 1 นาที, ระยะทางทริป, km/L เฉลี่ยของทริป, น้ำมันในถัง, แบต, fuel trim</li>
-      <li><b>โค้ดเสียภาษาไทย:</b> อ่าน/ลบโค้ด บอกความหมายเป็นภาษาไทย 101 โค้ดที่เจอบ่อย พร้อมความด่วน (ขับต่อได้ / ควรเข้าร้าน / อันตราย)</li>
-      <li><b>ค่าน้ำมันเป็นบาท:</b> ทริปนี้กี่บาท บาท/กม. และ<b>จอดติดเครื่องรถติดเสียไปกี่บาท</b></li>
-      <li><b>เตือนอันตราย:</b> น้ำร้อนเกิน ไฟชาร์จผิดปกติ ไฟเช็คเครื่องติด (จอกระพริบแดง)</li>
-      <li><b>ข้อมูลรถ:</b> AFR จริงเทียบกับที่ ECU สั่ง เวลาติดเครื่อง</li>
+      <li><b>โค้ดเสีย:</b> ไฟเช็คเครื่อง อ่าน/ลบโค้ด · <b>ข้อมูลรถ:</b> AFR จริงเทียบกับที่ ECU สั่ง เวลาติดเครื่อง</li>
     </ul>
     <div class="shots">
       <figure><img src="img/01_engine.jpg" alt="หน้าเครื่องยนต์: แถบสุญญากาศ -0.71 bar คันเร่ง โหลด อากาศเข้า จุดระเบิด" loading="lazy"><figcaption>เครื่องยนต์</figcaption></figure>
       <figure><img src="img/02_temp.jpg" alt="หน้าอุณหภูมิ: น้ำ 94 อากาศเข้า 77 แคทาไลติก 542" loading="lazy"><figcaption>อุณหภูมิ</figcaption></figure>
       <figure><img src="img/03_fuel.jpg" alt="หน้าน้ำมัน: 11.9 km/L ระยะทริป 0.6 km พร้อมกราฟ 1 นาที (โหมดจำลอง)" loading="lazy"><figcaption>น้ำมัน / ไฟ</figcaption></figure>
-      <figure><img src="img/04_dtc.jpg" alt="หน้าโค้ดเสีย: P0301 สูบ 1 จุดระเบิดไม่ติด หัวเทียน/คอยล์ ควรเข้าร้าน/ศูนย์เร็วๆ นี้ (โหมดจำลอง)" loading="lazy"><figcaption>โค้ดเสียภาษาไทย</figcaption></figure>
-      <figure><img src="img/08_cost.jpg" alt="หน้าค่าน้ำมัน: 3.54 บาททริปนี้ ระยะ 3.0 km ใช้ 0.10 ลิตร 1.19 บาท/กม. (โหมดจำลอง)" loading="lazy"><figcaption>ค่าน้ำมันเป็นบาท</figcaption></figure>
-      <figure><img src="img/09_alert.jpg" alt="เตือนไฟเช็คเครื่องติด กรอบแดงทั้งจอ" loading="lazy"><figcaption>เตือนอันตราย</figcaption></figure>
+      <figure><img src="img/04_dtc.jpg" alt="หน้าโค้ดเสีย: ไฟเช็คเครื่องดับ ปุ่มอ่านโค้ดและลบโค้ด" loading="lazy"><figcaption>โค้ดเสีย</figcaption></figure>
       <figure><img src="img/05_info.jpg" alt="หน้าข้อมูลรถ: AFR 14.6 ECU สั่ง 14.8 เวลาติดเครื่อง" loading="lazy"><figcaption>ข้อมูลรถ</figcaption></figure>
       <figure><img src="img/06_settings.jpg" alt="หน้าตั้งค่า: เชื้อเพลิง เทอร์โบ รอบสูงสุด ความจุ แก้ km/L ความสว่าง กลับจอ" loading="lazy"><figcaption>ตั้งค่า</figcaption></figure>
     </div>
